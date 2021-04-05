@@ -7,9 +7,6 @@
   }
 
 .my-name {
-    text-align: right;
-    margin-left:0px;
-    background-color:var(--dark);
     margin-right: auto;  
     background-color: var(--secondary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +50,7 @@ li {
     color: var(--primary);
     background-color:var(--light);
     padding: 20px;
-    ;
+    
 }
 
 .menu {
@@ -68,10 +65,18 @@ li {
     background-color:var(--light);
     padding: 20px;
     width: 215px;
-    height: 200px;
+    height: 160px;
     border-left: 1px solid;
     border-style: none solid none none;
+}
 
-h1.body-text {
-;;;
+.aboutme {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+
+.spacer {
+    height: 30px;
+    background-color: var(--light);
 }
