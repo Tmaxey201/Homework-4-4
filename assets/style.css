@@ -6,6 +6,10 @@
     --light: rgba(238, 238, 247, 1);
   }
 
+body {
+    background-color: var(--light);
+}
+
 .my-name {
     margin-right: auto;  
     background-color: var(--secondary);
@@ -70,14 +74,18 @@ li {
     border-style: none solid none none;
 }
 
-.aboutme {
+.aboutmetitle {
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
 }
 
+
 .spacer {
     height: 30px;
     background-color: var(--light);
 }
+p {
+    
 
+}
