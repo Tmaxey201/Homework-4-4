@@ -62,34 +62,36 @@ li {
 }
 
 .main-body {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: var(--primary);
-    background-color:var(--light);
-    padding: 20px;
-    width: 215px;
-    height: 160px;
-    border-left: 1px solid;
-    border-style: none solid none none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--primary);
+  width: 100%;
+  height: 160px;
 }
 
 .aboutmetitle {
+    padding: 10px;
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
+    border-right: 2px solid black;
 }
 
 
-.spacer {
-    height: 30px;
-    background-color: var(--light);
-}
+
+
 .aboutmetext {
     width: 600px;
     flex-wrap: wrap;
-    position: absolute;
-    right: 20px;
-   
+    
+}
 
+.aboutmebox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; float: right;
+   
+   
+    
 }
