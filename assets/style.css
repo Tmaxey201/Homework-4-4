@@ -85,7 +85,11 @@ li {
     height: 30px;
     background-color: var(--light);
 }
-p {
-    
+.aboutmetext {
+    width: 600px;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 20px;
+   
 
 }
