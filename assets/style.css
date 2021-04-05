@@ -1,11 +1,17 @@
+:root {
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+  }
 
-
-h1 {
+.my-name {
     text-align: right;
     margin-left:0px;
-    background-color: grey;
+    background-color:var(--dark);
     margin-right: auto;  
-    background-color: black;
+    background-color: var(--secondary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin-top: 7px;
@@ -19,7 +25,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: flex-start;
     color: rgb(59, 53, 53);
-    background-color: grey;
+    background-color:var(--tertiary);
     }
 
 
@@ -37,18 +43,35 @@ ul {
 li {
     float: right;
     margin: 20px;
+   
 }
 
 .headbar {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: rgb(160, 56, 56);
-    background-color: grey;
+    color: var(--primary);
+    background-color:var(--light);
     padding: 20px;
-    background-color: blue;
+    ;
 }
 
-li {
-    color: cornflowerblue;
+.menu {
+    color: var(--secondary);
+}
+
+.main-body {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--primary);
+    background-color:var(--light);
+    padding: 20px;
+    width: 215px;
+    height: 200px;
+    border-left: 1px solid;
+    border-style: none solid none none;
+
+h1.body-text {
+;;;
 }
