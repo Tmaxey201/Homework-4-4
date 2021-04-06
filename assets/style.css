@@ -57,6 +57,7 @@ li {
     justify-content: center;
     align-items: center;
     height: 300px;
+    width: 100%;
    
 }
 
@@ -74,11 +75,15 @@ li {
 .main-body-master {
     margin: 50px;
     margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
 }
 
 .main-body, .main-work-body, .main-contactme-body{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   align-items: flex-start;
   color: var(--primary);
   width: 100%;
