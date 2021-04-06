@@ -49,11 +49,12 @@ li {
 
 .headbar {
     display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: flex-end;
     color: var(--primary);
     background-color:var(--light);
-    padding: 20px;
+    padding-bottom: 20px;
+   
     
 }
 
@@ -76,9 +77,8 @@ li {
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-right: 2px solid black;
+    height: fit-content;
 }
-
-
 
 
 .aboutmetext, .worktext, .contactmetext {
@@ -87,11 +87,33 @@ li {
       
 }
 
-.aboutmebox, .workbox, .contactmebox {
+.worktext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.workbox, .contactmebox {
    flex-direction: column;
    padding-left: 20px;
    display: flex;
    flex-wrap: wrap; 
    
     
+}
+
+.aboutmebox {
+   float: ;
+   padding-left: 20px;
+   display: flex;
+   flex-wrap: wrap; 
+   
+}
+
+#selfie {
+    float: left;
+    padding-right: 20px;
+    width: 100px;
+    height: auto;
 }
