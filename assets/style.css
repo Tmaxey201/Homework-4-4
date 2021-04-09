@@ -56,7 +56,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 200px;
     width: 100%;
    
 }
@@ -146,15 +146,17 @@ li {
 #selfie {
     float: left;
     padding-right: 20px;
-    width: 100px;
+    width: 200px;
     height: auto;
 }
+
+
 
 
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: ;
+    justify-content: left ;
   
   }
   
@@ -166,9 +168,9 @@ li {
   }
   
   .flexbox-item-1 {
-      fle
-    min-height: 100px;
-    width: 200px;
+    
+    min-height: 200px;
+    min-width: 200px;
     margin: 10px;
     border: 3px solid black;
     background-color: blanchedalmond;
@@ -176,32 +178,25 @@ li {
   
   .flexbox-item-2 {
     min-height: 200px;
-    width: 200px;
+    min-width: 200px;
     margin: 10px;
     border: 3px solid black;
     background-color: blanchedalmond;
   }
   
   .flexbox-item-3 {
-    min-height: 300px;
-    width: 200px;
+    min-height: 200px;
+    min-width:  200px;
     margin: 10px;
     border: 3px solid black;
     background-color: blanchedalmond;
   }
 
   .flexbox-item-4 {
-    min-height: 300px;
-    width: 200px;
+    min-height: 200px;
+    min-width:  200px;
     margin: 10px;
     border: 3px solid black;
     background-color: blanchedalmond;
   }
-
-  .flexbox-item-5 {
-    min-height: 300px;
-    width: 200px;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-  }
+ 
