@@ -99,11 +99,17 @@ li {
     text-align: right;
 }
 
+.aboutmetext {
+ 
+
+}
 
 .aboutmetext, .worktext, .contactmetext {
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
       
 }
 
@@ -134,19 +140,26 @@ li {
     display: flex;
     flex-wrap: wrap;
    float: 10px;
-   padding-left: 20px;
+   padding: 40px;
    display: flex;
    flex-wrap: wrap; 
-   width: 50vh;
-   hie
-  
-   
+     
+}
+
+p2, p3, p4 {
+ margin-bottom:  10px;
+}
+
+.imgbox {
+ max-height: 100%;
+ max-width: 100%;
 }
 
 #selfie {
+    position: relative;  
     float: left;
-    padding-right: 20px;
-    width: 200px;
+    padding-right: 30px;
+    width: 240px;
     height: auto;
 }
 
