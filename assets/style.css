@@ -97,12 +97,10 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-right: 3px solid var(--primary);
     text-align: right;
-}
-
-.aboutmetext {
- 
 
 }
+
+
 
 .aboutmetext, .worktext, .contactmetext {
     width: 500px;
@@ -110,6 +108,7 @@ li {
     flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    
       
 }
 
@@ -121,12 +120,10 @@ li {
 }
 
 .workbox, .contactmebox {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    padding-left: 20px;
-   display: flex;
-   flex-wrap: wrap; 
    width: 50vh;
 }
    
@@ -137,17 +134,24 @@ li {
 }
 
 .aboutmebox {
-    display: flex;
-    flex-wrap: wrap;
-   float: 10px;
-   padding: 40px;
-   display: flex;
-   flex-wrap: wrap; 
+  min-width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  float: 10px;
+  padding: 40px;
+   
+    
      
 }
 
 p2, p3, p4 {
+ font-size: 1.2em;
  margin-bottom:  10px;
+ color: var(--primary);
+}
+p6 {
+  opacity: 0;
 }
 
 .imgbox {
@@ -157,79 +161,62 @@ p2, p3, p4 {
 
 #selfie {
     position: relative;  
-    float: left;
     padding-right: 30px;
-    width: 240px;
-    height: auto;
+    width: 20vw;
+    
 }
 
 
 
 
-/* .flexbox-container {
-    flex: 4;
+ .flexbox-container {
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: left ;
-    border: 20px;
-  } */
+    justify-content: space-around ;
+    flex-grow: ;
+    
+  } 
   
-  .flexbox-item {
-    width: 200px;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-  }
+  
 
   .flexbox-long {
     display: flex;
     flex-direction: row;
-  }
+    justify-content: ;
+ }
 
 
   
   .flexbox-item-1 {
-    
     min-height: 200px;
-    min-width: 49%;
+    min-width: 50%;
     margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-    
+    border: 5px solid var(--secondary);
+    background: url(/Homework-4-4/Homework-4-4/assets/images/calculator.jpg) center/cover no-repeat;
+      
   }
   
   .flexbox-item-2 {
     min-height: 200px;
-    min-width: 48%;
+    min-width: 50%;
     margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
+    border: 5px solid var(--secondary);
+    background: url(/Homework-4-4/Homework-4-4/assets/images/androidhero.jpg) center/cover no-repeat;
+    
   }
   
   .flexbox-item-3 {
     min-height: 200px;
-    min-width:  100%;
+    min-width:  105.5%;
     margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
+    border: 5px solid var(--secondary);
+    background: url(/Homework-4-4/Homework-4-4/assets/images/surf.jpg) center/cover no-repeat;
+    ;
   }
 
-  .flexbox-item-4 {
-    min-height: 200px;
-    min-width:  49%;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-  }
- 
-  .flexbox-item-5 {
-    min-height: 200px;
-    min-width:  48%;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-  }
- 
+  
+  
 
   @media screen 
   and (min-device-width: 1200px) 
