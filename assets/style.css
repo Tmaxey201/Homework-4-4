@@ -17,6 +17,7 @@ body {
     padding: 10px;
     margin-top: 7px;
     margin-bottom: 7px;
+    border-radius: 5px;
 }
 
 
@@ -27,7 +28,7 @@ body {
     justify-content: flex-start;
     color: rgb(59, 53, 53);
     background-color:var(--tertiary);
-    }
+}
 
 
 
@@ -37,14 +38,12 @@ ul {
     margin-top: 10px;
     margin-right: 50px;
     font-weight: 800;
-
 }
 
 
 li {
     float: right;
     margin: 20px;
-   
 }
 
 
@@ -59,10 +58,20 @@ li {
    
 }
 
+.headertxt {
+  margin-left: auto;  
+  background-color: var(--secondary);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-weight: 800;
+  border-radius: 5px;
+  color: var(--tertiary);
+}
 
 .imgbox {
-  align-items: flex-start;
-  margin-top: 5%;
+  padding: 30px;
 }
 
 .menu {
@@ -72,6 +81,7 @@ li {
 .main-body-master {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    
     margin: 50px;
     margin-left: 100px;
@@ -91,10 +101,11 @@ li {
     width: 200px;
     padding: 10px;
     margin-top: 40px;
-    font-size: 3em;
+    font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-right: 3px solid var(--primary);
     text-align: right;
+    font-weight: bold;
 
 }
 
@@ -143,24 +154,18 @@ li {
 }
 
 .aboutmebox {
-  
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 40px;
-   
-    
-     
+  justify-content: space-between;
+  object-fit: fill;
+  padding: 40px;   
 }
 
-p2, p3, p4 {
+p2{
   margin: 5px;
-  text-indent: 50px
   color: var(--primary);
-  align-items: center;
+  align-items: flex-end;
   line-height: 1.5;
-  
- 
 }
 
 
@@ -172,11 +177,9 @@ p6 {
 
 #selfie {
   border: solid  var(--primary);
-  border-radius: 3pc;
+  border-radius: 1pc;
   position:relative;  
-  margin: 10px;
-  width: 20vw;
-    
+  max-height: 30vh;
 }
 
 
@@ -187,7 +190,7 @@ p6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around ;
-    flex-grow: ;
+    width: 100%;
     
   } 
   
@@ -206,6 +209,7 @@ p6 {
     min-width: 50%;
     margin: 10px;
     border: 5px solid var(--secondary);
+    border-radius: 5px;
     background: url(/Homework-4-4/Homework-4-4/assets/images/calculator.jpg) center/cover no-repeat;
       
   }
@@ -215,6 +219,7 @@ p6 {
     min-width: 50%;
     margin: 10px;
     border: 5px solid var(--secondary);
+    border-radius: 5px;
     background: url(/Homework-4-4/Homework-4-4/assets/images/androidhero.jpg) center/cover no-repeat;
     
   }
@@ -224,6 +229,7 @@ p6 {
     min-width:  105.5%;
     margin: 10px;
     border: 5px solid var(--secondary);
+    border-radius: 5px;
     background: url(/Homework-4-4/Homework-4-4/assets/images/surf.jpg) center/cover no-repeat;
     ;
   }
@@ -234,25 +240,17 @@ p6 {
     height: fit-content;
     border: 2px solid var(--secondary);
     background-color: var(--secondary);
+    border-radius: 4px;
   }
   
 
-  @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-} 
+  @media only screen and (max-width: 600px) {
+    .aboutmetitle, .worktitle, .contactmetitle {
+      
+      border-right: none;
+      border-bottom: 3px solid var(--primary);
+      text-align: center;
+    }
+  }
+ 
+  <body>
