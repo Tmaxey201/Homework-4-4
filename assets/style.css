@@ -23,6 +23,14 @@ a:hover {
     background-color: var(--light);
   }
 
+.contactcolor {
+  color: var(--primary);
+}
+
+.contactcolor:hover {
+  color: var(--secondary);
+}
+
 
 .my-name {
     margin-right: auto;  
