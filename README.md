@@ -7,6 +7,6 @@
 
 ### Resizing the page will fit it to the corresponding size in an asthetic manner. 
 
-### Highliting links and projects have hover over effects
+### Highlighting links and projects have hover over effects
 
 !<img src="assets/images/selfie.jpeg" width="300">
